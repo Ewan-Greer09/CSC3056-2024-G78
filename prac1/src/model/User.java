@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public class User {
     private String username;
@@ -57,13 +57,8 @@ public class User {
 
     @Override
     public String toString() {
-        return "{" +
-                " username='" + getUsername() + "'" +
-                ", password='" + getPassword() + "'" +
-                ", firstName='" + getFirstName() + "'" +
-                ", lastName='" + getLastName() + "'" +
-                ", mobileNumber='" + getMobileNumber() + "'" +
-                "}";
+        return String.format("%-25s| %-15s| %-15s| %-15s| %-15s", this.username, this.password, this.firstName,
+                this.lastName, this.mobileNumber);
     }
 
 }

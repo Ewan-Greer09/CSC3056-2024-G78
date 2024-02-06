@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 import java.util.Date;
 
@@ -39,11 +39,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "{" +
-                " accountNumber='" + getAccountNumber() + "'" +
-                ", transactionAmount='" + getTransactionAmount() + "'" +
-                ", transactionDate='" + getTransactionDate() + "'" +
-                "}";
+        return String.format("%-25s| %-25s| %-25s", this.accountNumber, this.transactionAmount, this.transactionDate);
     }
 
 }
