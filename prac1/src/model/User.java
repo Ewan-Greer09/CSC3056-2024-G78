@@ -55,4 +55,15 @@ public class User {
         this.mobileNumber = mobileNumber;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                " username='" + getUsername() + "'" +
+                ", password='" + getPassword() + "'" +
+                ", firstName='" + getFirstName() + "'" +
+                ", lastName='" + getLastName() + "'" +
+                ", mobileNumber='" + getMobileNumber() + "'" +
+                "}";
+    }
+
 }

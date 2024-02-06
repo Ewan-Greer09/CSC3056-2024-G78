@@ -47,4 +47,14 @@ public class Account {
         this.accountOpeningDate = accountOpeningDate;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                " accountNumber='" + getAccountNumber() + "'" +
+                ", usernameOfAccountHolder='" + getUsernameOfAccountHolder() + "'" +
+                ", accountType='" + getAccountType() + "'" +
+                ", accountOpeningDate='" + getAccountOpeningDate() + "'" +
+                "}";
+    }
+
 }
