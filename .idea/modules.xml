@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSC3056-2024-G78.iml" filepath="$PROJECT_DIR$/CSC3056-2024-G78.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practical2/practical2.iml" filepath="$PROJECT_DIR$/practical2/practical2.iml" />
+    </modules>
+  </component>
+</project>
